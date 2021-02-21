@@ -18,8 +18,7 @@ public class Problem6 {
             if (avgProduce>=expectedProduce){
                 System.out.printf("Good job! Average gold per day: %.2f.%n",avgProduce);
             }else {
-                double diff=expectedProduce-avgProduce;
-                System.out.printf("You need %.2f gold.%n",diff);
+                System.out.printf("You need %.2f gold.%n",expectedProduce-avgProduce);
             }
         }
     }
